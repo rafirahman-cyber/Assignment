@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+.logo{
+    width: 135px;
+    height: 55px;
+}
+
+/* main style */
+
+header{
+    background-color: #FFFFFF;
+}
+
+.nav-bar{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 15px 115px 15px 115px;
+
+
+}
+
+.menu{
+    display: flex;
+    gap: 35px;
+    position: absolute;
+    left: 38%;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-size: 500;
+}
+
+div .nav-btn{
+    width: 164px;
+    height: 44px;
+    margin: 24px 120px 24px 1316px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+    background-color: #7c0c0c91;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hero{
+    position: relative;
+    height: 670px;
+    background-image: url("/images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto 1360px;
+    height: auto 296px;
+    margin: 280px 120px 400px 50px;
+}
+
+.content span{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 36px;
+    background-color: #FFFFFF;
+    border-radius: 999px;
+    align-items: center;
+    justify-content: center;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    
+    
+}
+
+.content h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.content h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    color: #30B868;
+}
+
+.content p{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    width: 1360px;
+    height: 60px;
+    color: #FFFFFF;
+}
