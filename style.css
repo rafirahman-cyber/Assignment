@@ -78,7 +78,7 @@ div .nav-btn{
 .hero{
     position: relative;
     height: 670px;
-    background-image: url("/images/hero-bg.png");
+    background-image: url(../Assignment/images/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
