@@ -139,3 +139,34 @@ div .nav-btn{
     height: 60px;
     color: #FFFFFF;
 }
+
+.btn {
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    gap: 8px;
+    color: #FFFFFF;
+    background-color: #30B868;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 30px;
+   
+}
+
+.btn:hover{
+    background-color: #7c0c0c7e;
+}
+
+.btn-2{
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    background:transparent;
+    border: 1px solid white;
+    color: #FFFFFF;
+    font-size: 16px;
+    
+}
+
+
