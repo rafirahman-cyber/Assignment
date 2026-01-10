@@ -24,7 +24,7 @@ header{
 }
 
 .nav-bar{
-    /* border: 1px solid red; */
+    
     width: 100%;
     display: flex;
     align-items: center;
@@ -167,6 +167,39 @@ div .nav-btn{
     color: #FFFFFF;
     font-size: 16px;
     
+}
+
+
+
+
+
+
+
+
+
+
+
+.hero-parent .hero-child{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:50px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 50px;
+    font-weight: 700;
+    
+}
+
+.hero-child .para{
+    
+    font-size: 13px;
+    color: #627382;
+    font-weight: 400;
+    width: 800px;
+    height: 40px;
+    align-items: center;
 }
 
 
